@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* General */
+
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    
+}
+
+main {
+    margin: 15px 120px;
+}
+
+section {
+    border: 3px solid #edeaf2;
+    padding: 20px 10px;
+    margin: 20px auto;
+}
+
+h1, h2, h3, p {
+    margin: 10px auto;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 26px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+p, li {
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.colors, .fonts {
+    display: inline-block;
+}
+
+/* Colors */
+
+.colors {
+    width: 290px;
+    height: 100px;
+    text-align: center;
+    margin: 10px auto;
+}
+
+#blue-bell {
+    background-color: #9CA3D6;
+    color: #FFFFFF;
+}
+
+#soap {
+    background-color: #CFC1E8;
+}
+
+#shampoo {
+    background-color: #F2D5EF;
+}
+
+#antique-white {
+    background-color: #F7EFDA;
+}
+
+#jet-stream {
+    background-color: #B3DDC4;
+}
+
+/* Fonts */
+
+.fonts {
+    margin: 20px 50px;
+}
+
+#source-code-pro {
+    font-family: 'Source Code Pro', monospace;
+}
+
+#nunito-sans {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+#poppins {
+    font-family: 'Poppins', sans-serif;
+}
